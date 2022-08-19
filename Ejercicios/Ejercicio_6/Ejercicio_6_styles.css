@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.workSpace {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagen {
+  width: 200px;
+  margin: 10px;
+}
+
+@media (max-width: 400px) {
+  .workSpace {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
