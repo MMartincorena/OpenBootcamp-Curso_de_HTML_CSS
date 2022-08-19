@@ -1,0 +1,46 @@
+<!-- 
+    Crea un nuevo documento HTML con el título "Ganando precisión con los selectores en CSS"
+- Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
+- Dentro del body crea una sección con los siguientes elementos:
+    - Encabezado que contenga el texto "Lista de la compra"
+        - Añade en el encabezado un atributo id con el valor "titulo"
+        - Añade también un atributo class con el valor "encabezado"
+    - Una lista desordenada con cinco elementos que representen artículos de la compra
+        - Cada uno de los elementos debe tener un id como sigue: primer elemento "elemento-1", segundo elemento "elemento-2", etc.
+    - Una lista ordenada con cinco elementos que representan los supermercados más cercanos a tu casa
+        - Al igual que en la lista anterior, cada uno de los elementos debe tener un id como sigue: primer elemento "elemento-1", segundo elemento "elemento-2", etc.
+    - Modifica el CSS para que el primer elemento de cada lista se muestre de color rojo
+    - A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Ejercicio_5_styles.css" />
+    <title>Ganando precisión con los selectores en CSS</title>
+  </head>
+  <body>
+    <div>
+      <header id="titulo" class="encabezado">
+        <h1>Lista de la compra</h1>
+        <ul>
+          <li id="elemento-1">Tomates 2kg</li>
+          <li id="elemento-2">Aceite de oliva</li>
+          <li id="elemento-3">Harina</li>
+          <li id="elemento-4">Gaseosa 3L</li>
+          <li id="elemento-5">Galletitas</li>
+        </ul>
+        <ol>
+          <li id="elemento-1">Super Star</li>
+          <li id="elemento-2">TATA</li>
+          <li id="elemento-3">El dorado</li>
+          <li id="elemento-4">El tren</li>
+          <li id="elemento-5">365/7</li>
+        </ol>
+      </header>
+    </div>
+  </body>
+</html>
