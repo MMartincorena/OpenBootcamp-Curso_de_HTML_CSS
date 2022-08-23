@@ -3,32 +3,15 @@ body {
   padding: 0;
 }
 
-#boton:before {
-  content: "Pasa por encima";
-}
-
 #boton:hover {
   background-color: green;
   color: #eeeeee;
 }
 
-/* .boton:checked + .boton:after{
-  content: "¡Hecho!";
-} */
-
-/* #example-checkbox:checked + #example:after {
-  content: "Hide";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: white;
-} */
-
-#boton_check {
-  display: none;
+#boton:before {
+  content: "Pasa por encima";
 }
-#boton_check:checked + .boton:after {
+
+#boton:hover::before {
   content: "¡Hecho!";
 }
