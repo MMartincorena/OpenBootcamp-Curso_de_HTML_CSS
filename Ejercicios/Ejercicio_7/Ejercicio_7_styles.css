@@ -8,7 +8,7 @@ body {
   color: #eeeeee;
 }
 
-#boton:before {
+#boton::before {
   content: "Pasa por encima";
 }
 
