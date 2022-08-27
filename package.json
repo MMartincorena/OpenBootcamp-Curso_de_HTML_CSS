@@ -1,0 +1,25 @@
+{
+  "name": "2-html_css",
+  "version": "1.0.0",
+  "description": "Con este curso de HTML y CSS aprenderás las bases de todo desarrollo web, pues ambos son los lenguajes estándar para el desarrollo de páginas web en el mundo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMartincorena/OpenBootcamp-Curso_de_HTML_CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMartincorena/OpenBootcamp-Curso_de_HTML_CSS/issues"
+  },
+  "homepage": "https://github.com/MMartincorena/OpenBootcamp-Curso_de_HTML_CSS#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

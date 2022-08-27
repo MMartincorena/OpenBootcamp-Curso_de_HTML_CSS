@@ -1,0 +1,32 @@
+
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.btn-modern{
+  background-color: blue;
+  color: aliceblue;
+  box-shadow: 5px -5px teal;
+
+}
+
+.btn-modern:hover {
+  background-color: blue;
+  color: aliceblue;
+  animation: efectoBoton 4.0s ease-in-out forwards alternate;
+}
+
+@keyframes efectoBoton {
+  0% {
+    transform: translateY(-50px);
+    background-color: red;
+    color: green;
+  }
+}
